@@ -1,0 +1,38 @@
+ <head>
+	<if condition="'[[preloader.enable]]' === 'true'">
+		<include src="@components/effects/preloader/preloader.html" locals='{"once":"[[preloader.once]]"}'></include>
+	</if>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<include src="@components/layout/head/fonts-preload.html"></include>
+	<link rel="stylesheet" href="@styles/fonts/fonts.css">
+	<link rel="stylesheet" href="@styles/fonts/iconfont.css">
+	<link rel="stylesheet" href="@styles/style.scss">
+	<link rel="shortcut icon" href="@img/favicons/favicon.ico">
+	<link rel="icon" href="@img/favicons/favicon.ico" sizes="any">
+	<link rel="icon" type="image/png" sizes="16x16" href="@img/favicons/favicon-16x16.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="@img/favicons/favicon-32x32.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="@img/favicons/apple-touch-icon.png">
+	<link rel="manifest" href="@img/favicons/site.webmanifest">
+	<meta name="theme-color" content="#008af1">
+	<meta name="msapplication-TileColor" content="#008af1">
+	<meta name="msapplication-config" content="@img/favicons/browserconfig.xml">
+	<if condition="'[[keywords]]' !== ''">
+		<meta name="keywords" content="[[keywords]]">
+	</if>
+	<if condition="'[[description]]' !== ''">
+		<meta name="description" content="[[description]]">
+	</if>
+
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="[[title]]">
+	<if condition="'[[description]]' !== ''">
+		<meta property="og:description" content="[[description]]">
+	</if>
+	<meta property="og:image" content="./assets/img/favicons/og-image.png">
+	<meta property="og:site_name" content="BiG BOB">
+	<meta property="og:locale" content="uk_UA">
+	<meta name="twitter:card" content="summary_large_image">
+	<title>[[title]]</title>
+	<style></style>
+</head>
