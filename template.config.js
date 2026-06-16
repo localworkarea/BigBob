@@ -72,7 +72,7 @@ export default {
 				enable: true,
 				type: 'webp', // webp/avif
 				only: true,
-				quality: 85
+				quality: 80
 			},
 			jpeg: {
 				quality: 80
