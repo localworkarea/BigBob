@@ -722,7 +722,7 @@ body {
   .bg .bg-mountain img {
     left: 50%;
     position: relative;
-    min-width: 88.75rem;
+    min-width: 96.875rem;
     transform: translate(-79%, 0%);
   }
   .--section-2 .bg .bg-mountain img {
@@ -734,8 +734,8 @@ body {
   }
 }@media (max-width: 23.49875em) {
   .bg .bg-mountain img {
-    object-position: center;
     min-width: 96.875rem;
+    object-position: center;
   }
   .sec-1__wrp {
     align-items: flex-start;
