@@ -78,15 +78,16 @@
       @media (max-width:toEm($mobileSmall)){
         left: 50%;
         position: relative;
-        min-width: 1550px;
         transform: translate(-79%, 0%);
       }
       @media (max-width:toEm($mobileSmall)) and (min-width:toEm(390.98))  {
         min-width: 1550px;
       }
+      @media (max-width: toEm(390.98)){
+        min-width: 1440px;
+      }
       @media (max-width: toEm(375.98)){
-        min-width: 1550px;
-        object-position: center;
+        min-width: 1300px;
       }
       .--section-2 & {
         filter: blur(5px);
