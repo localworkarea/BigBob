@@ -68,32 +68,33 @@
   }
   .bg-mountain {
     img {
-      object-position: bottom;
+      // object-position: bottom;
       [data-att-loaded] & {
         transition: filter .7s ease, transform .7s ease;
       }
-      @media (max-width:toEm($tablet)) and (min-width:toEm(480.98)){
+      @media (max-width:toEm($tablet)) {
         object-position: right;
       }
-      @media (max-width:toEm($mobileSmall)){
-        left: 50%;
-        position: relative;
-        transform: translate(-79%, 0%);
-      }
-      @media (max-width:toEm($mobileSmall)) and (min-width:toEm(390.98))  {
-        min-width: 1550px;
-      }
-      @media (max-width: toEm(390.98)){
-        min-width: 1440px;
-      }
-      @media (max-width: toEm(375.98)){
-        min-width: 1300px;
-      }
+      // @media (max-width:toEm($mobileSmall)){
+        // object-position: right;
+        // left: 50%;
+        // position: relative;
+        // transform: translate(-79%, 0%);
+      // }
+      // @media (max-width:toEm($mobileSmall)) and (min-width:toEm(390.98))  {
+        // min-width: 1550px;
+      // }
+      // @media (max-width: toEm(390.98)){
+        // min-width: 1440px;
+      // }
+      // @media (max-width: toEm(375.98)){
+        // min-width: 1300px;
+      // }
       .--section-2 & {
         filter: blur(5px);
-        @media (max-width:toEm($mobileSmall)){
-          transform: translate(-26%, 0%);
-        }
+        // @media (max-width:toEm($mobileSmall)){
+          // transform: translate(-26%, 0%);
+        // }
       }
     }
   }

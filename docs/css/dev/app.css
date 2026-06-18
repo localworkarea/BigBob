@@ -187,9 +187,6 @@ body {
   position: absolute;
   inset: 0;
 }
-.bg .bg-mountain img {
-  object-position: bottom;
-}
 [data-att-loaded] .bg .bg-mountain img {
   transition: filter 0.7s ease, transform 0.7s ease;
 }
@@ -671,7 +668,7 @@ body {
     left: -3.75rem;
     bottom: 3vh;
   }
-}@media (max-width: 62.06125em) and (min-width: 30.06125em) {
+}@media (max-width: 62.06125em) {
   .bg .bg-mountain img {
     object-position: right;
   }
@@ -715,31 +712,12 @@ body {
     left: 92%;
     bottom: 38%;
   }
-}@media (max-width: 30.06125em) and (min-width: 24.43625em) {
-  .bg .bg-mountain img {
-    min-width: 96.875rem;
-  }
 }@media (max-width: 30.06125em) {
-  .bg .bg-mountain img {
-    left: 50%;
-    position: relative;
-    transform: translate(-79%, 0%);
-  }
-  .--section-2 .bg .bg-mountain img {
-    transform: translate(-26%, 0%);
-  }
   .subtitle {
     left: 90%;
     bottom: 8%;
   }
-}@media (max-width: 24.43625em) {
-  .bg .bg-mountain img {
-    min-width: 90rem;
-  }
 }@media (max-width: 23.49875em) {
-  .bg .bg-mountain img {
-    min-width: 81.25rem;
-  }
   .sec-1__wrp {
     align-items: flex-start;
   }
