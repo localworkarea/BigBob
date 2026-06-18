@@ -58,6 +58,10 @@ body {
 	display: flex;
 	flex-direction: column;
 	gap: 6px;
+	transition: opacity .3s ease;
+	.--section-2 & {
+		opacity: 0;
+	}
 	@media (min-width:toEm($mobileSmall)){
 		left: 5%;
 	}

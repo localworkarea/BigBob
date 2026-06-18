@@ -11,7 +11,7 @@ import "./slider.scss";
 function initSliders() {
 	if (document.querySelector('.swiper')) { 
 		new Swiper('.swiper', {
-			modules: [Pagination],
+			modules: [Pagination, Navigation],
 			observer: true,
 			observeParents: true,
 			speed: 500,
@@ -26,11 +26,11 @@ function initSliders() {
 			//preloadImages: false,
 			//lazy: true,
 			
-			// navigation: {
-				// 	prevEl: '.swiper-button-prev',
-				// 	nextEl: '.swiper-button-next',
-				// 	addIcons: false,
-				// },
+			navigation: {
+					prevEl: '.swiper-button-prev',
+					nextEl: '.swiper-button-next',
+					addIcons: false,
+				},
 
 			pagination: {
 				el: '.swiper-pagination',
@@ -42,11 +42,16 @@ function initSliders() {
 						slidesPerView: 1,
 						spaceBetween: 0,
 					},
+					850: {
+						spaceBetween: 40,
+						slidesPerView: 3,
+						// slidesPerView: 2,
+					},
 					992: {
-					spaceBetween: 40,
-					slidesPerView: 2,
-					initialSlide: 1,
-				},
+						spaceBetween: 40,
+						slidesPerView: 4,
+						// slidesPerView: 2,
+					},
 			},
 
 			// Події
